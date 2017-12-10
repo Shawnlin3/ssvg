@@ -6,6 +6,7 @@
       <text class="svgtext" x="150" y="120">I can do this!!!</text>
       <path class="svgpath" d="M 150,150 L 1000,150"></path>
     </svg>
+    <img src="../assets/MIP.svg"></img>
   </div>
 </template>
 
@@ -19,7 +20,7 @@ export default {
   },
   methods: {
     circlk (evt) {
-      alert ('circle click!')
+      alert('circle click!')
     }
   }
 }
